@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buscar Clientes</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>CLIENTES</h1>
+
+<div class="search-container">
+  <input type="text" id="searchInput" placeholder="Buscar clientes...">
+  <select id="searchField">
+    <option value="name">Nombre</option>
+    <option value="phone">Teléfono</option>
+    <option value="email">Correo</option>
+  </select>
+</div>
+
+<div id="clientsList" class="card-container"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
