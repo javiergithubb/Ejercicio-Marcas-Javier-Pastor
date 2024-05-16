@@ -39,7 +39,7 @@ let clientes = [
     "image": "imagenes/nico.jpg"
   },
   {
-    "name": "Adriano",
+    "name": "Adriano Rosende",
     "phone": "6649876543",
     "email": "adriano@gmail.com",
     "image": "imagenes/adriano.jpg"
@@ -51,7 +51,7 @@ let clientes = [
     "image": "imagenes/noel.jpg"
   },
   {
-    "name": "Roberto",
+    "name": "Roberto Carlos",
     "phone": "6195556666",
     "email": "roberto@hotmail.com",
     "image": "imagenes/roberto.jpg"

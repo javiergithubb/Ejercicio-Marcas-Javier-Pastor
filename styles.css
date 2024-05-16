@@ -65,8 +65,10 @@ h1 {
 }
 
 .card img {
-  width: 100%;
-  border-radius: 10px;
+  width: 100%; /* Ajustamos el ancho al 100% para que todas las imágenes tengan el mismo tamaño */
+  height: 200px; /* Establecemos la altura deseada */
+  object-fit: cover; /* Escalamos la imagen para que cubra todo el contenedor manteniendo la relación de aspecto */
+  border-radius: 10px; /* Añadimos un borde redondeado */
 }
 
 .card h3 {
